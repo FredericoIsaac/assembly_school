@@ -8,7 +8,6 @@ namespace Code_I
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             CodeIArrays();
         }
 
@@ -360,27 +359,31 @@ namespace Code_I
         #region Arrays
         static void CodeIArrays()
         {
+
+            ticTacToe();
+
             // TODO: Convert Array.system to array (How?):
-            int[] lowestToLargest = lowestLargest(5, 1, 8, 9, 10);
-            foreach(int number in lowestToLargest)
-            {
-                Console.WriteLine(number);
-            }
-            int[] largestToLowest = largestLowest(5, 1, 8, 9, 10);
-            foreach (int number in largestToLowest)
-            {
-                Console.WriteLine(number);
-            }
+            //int[] lowestToLargest = lowestLargest(5, 1, 8, 9, 10);
+            //foreach(int number in lowestToLargest)
+            //{
+            //    Console.WriteLine(number);
+            //}
+            //int[] largestToLowest = largestLowest(5, 1, 8, 9, 10);
+            //foreach (int number in largestToLowest)
+            //{
+            //    Console.WriteLine(number);
+            //}
 
-            Console.WriteLine(avgarray(new int[] { 5, 1, 8, 9, 10}));
-            
-            
-            ArrayList numberAdded = giveMeMore();
-            foreach (int number in numberAdded)
-            {
-                Console.WriteLine(number);
-            }
+            //Console.WriteLine(avgarray(new int[] { 5, 1, 8, 9, 10}));
 
+
+            //ArrayList numberAdded = giveMeMore();
+            //foreach (int number in numberAdded)
+            //{
+            //    Console.WriteLine(number);
+            //}
+
+            #region Exercicios1_4
             /// <summary>
             /// Receives five numbers and returns them ordered from lowest to largest.
             /// </summary>
@@ -418,6 +421,10 @@ namespace Code_I
 
             }
 
+            /// <summary>
+            /// Receives an X number of inputs. It must return the correspondent value on 
+            /// request, on after each request it must ask the user if it desires another retrieval.
+            /// </summary>
             static ArrayList giveMeMore()
             {
                 ArrayList list = new ArrayList();
@@ -445,6 +452,246 @@ namespace Code_I
                     list.Add(numberAdd);
                 }
                 return list;
+            }
+            #endregion
+
+            static void ticTacToe()
+            {
+                
+                static void resetBoard(string[,] oldBoard)
+                {
+                    oldBoard = new string[3,3];
+                }
+
+                static void drawBoard(string[,] board)
+                {
+                    string spaces = "  ";
+                    Console.WriteLine($"{spaces}{spaces}|{spaces}A{spaces}|{spaces}B{spaces}|{spaces}C{spaces}|");
+                    Console.WriteLine($"+---+-----+-----+-----+");
+                    for (int i = 0; i < board.GetLength(0); i++)
+                    {
+                        Console.Write($"{spaces}{i+1} |");
+                        for (int j = 0; j < board.GetLength(1); j++)
+                        {
+                            string boardSquare = board[i, j];
+                            if (string.IsNullOrEmpty(boardSquare))
+                            {
+                                boardSquare = " ";
+                            }
+                            boardSquare = boardSquare.PadRight(3);
+                            boardSquare = boardSquare.PadLeft(5);
+                            Console.Write(boardSquare);
+                            Console.Write("|");
+                        }
+                        Console.WriteLine();
+                        Console.WriteLine($"+---+-----+-----+-----+");
+                    }
+                }
+
+                static char whoFirst(char [] players)
+                {
+                    Random r = new Random();
+                    return players[r.Next(players.Length)];
+                }
+
+                static int[] validatePlay(string play, string[,] board)
+                {
+                    string[] coordinates = play.Split(" ");
+
+                    if (coordinates.Length != 2)
+                    {
+                        // TODO: return empty array, better way?
+                        return new int[] {};
+                    }
+                    else 
+                    {
+                        int y;
+                        bool canConvertY = int.TryParse(coordinates[1], out y);
+                        bool rightPlayX = "ABC".Contains(coordinates[0]);
+
+                        if (!canConvertY | !rightPlayX)
+                        {
+                            return new int[] { };
+                        }
+                        int indexPlay;
+                        if (coordinates[0] == "A")
+                        {
+                            indexPlay = 0;
+                        }
+                        else if (coordinates[0] == "B")
+                        {
+                            indexPlay = 1;
+                        }
+                        else
+                        {
+                            indexPlay = 2;
+                        }
+
+                        Console.WriteLine($"{y - 1} + {indexPlay}");
+                        Console.WriteLine(board[0,0]);
+                        Console.WriteLine(board[1,0]);
+                        if (string.IsNullOrEmpty(board[y-1, indexPlay]))
+                        {
+                            return new[] { y - 1, indexPlay }; 
+                        }
+
+                        return new int[] { };
+
+                    }
+
+                }
+
+                static bool[] checkWinTie(string[,] board, char currentPlayer)
+                {
+                    bool emptySlots = false;
+                    string player = Convert.ToString(currentPlayer);
+
+
+                    for (int i = 0; i < board.GetLength(0); i++)
+                    {
+                        for (int j = 0; j < board.GetLength(1); j++)
+                        {
+                            if (string.IsNullOrEmpty(board[i, j]))
+                            {
+                                emptySlots = true;
+                            }
+                        }
+                    }
+
+                    if (board[0, 0] == player && board[0, 1] == player && board[0, 2] == player) { return new[] { true, emptySlots }; }
+                    if (board[1, 0] == player && board[1, 1] == player && board[1, 2] == player) { return new[] { true, emptySlots }; }
+                    if (board[2, 0] == player && board[2, 1] == player && board[2, 2] == player) { return new[] { true, emptySlots }; }
+
+                    // check columns
+                    if (board[0, 0] == player && board[1, 0] == player && board[2, 0] == player) { return new[] { true, emptySlots }; }
+                    if (board[0, 1] == player && board[1, 1] == player && board[2, 1] == player) { return new[] { true, emptySlots }; }
+                    if (board[0, 2] == player && board[1, 2] == player && board[2, 2] == player) { return new[] { true, emptySlots }; }
+
+                    // check diags
+                    if (board[0, 0] == player && board[1, 1] == player && board[2, 2] == player) { return new[] { true, emptySlots }; }
+                    if (board[0, 2] == player && board[1, 1] == player && board[2, 0] == player) { return new[] { true, emptySlots }; }
+                    
+                    return new[] { false, emptySlots };
+                }
+
+                static void mainPlay()
+                {
+                    string[,] board = new string[3, 3];
+                    char player = 'X';
+                    char computer = 'O';
+                    char currPlayer = whoFirst(new char[] { player, computer });
+
+                    while (true)
+                    {
+                        Console.WriteLine("Lets Play Tic Tac Toe!\n0 - Exit.\n1 - Play.");
+                        string chooseMenu = Console.ReadLine().ToUpper();
+
+                        if (chooseMenu == "0")
+                        {
+                            Console.WriteLine("Exiting program.");
+                            break;
+                        }
+                        else if (chooseMenu != "1")
+                        {
+                            Console.WriteLine("Wrong Input! Try again.");
+                            Console.Clear();
+                        }
+                       
+
+                        while (true)
+                        {
+                            drawBoard(board);
+                            //board[0, 1] = "PP";
+                            if (currPlayer == 'X')
+                            {
+                                Console.WriteLine("It's your time to play, insert coordinates (Ex.: A 1):");
+                                string player_turn = Console.ReadLine().ToUpper();
+                                int[] coordinates = validatePlay(player_turn, board);
+                                
+                                if (coordinates.Length == 0)
+                                {
+                                    Console.WriteLine("Wrong coordinates, please try again.");
+                                    continue;
+                                }
+                                
+                                board[coordinates[0], coordinates[1]] = "X";
+                                bool[] checkGame = checkWinTie(board, currPlayer);
+
+                                if (checkGame[0])
+                                {
+                                    Console.WriteLine("Congratz!! You won!\nPress any key to return to menu.");
+                                    drawBoard(board);
+                                    resetBoard(board);
+                                    Console.ReadLine();
+                                    break;
+                                }
+                                else if (!checkGame[1])
+                                {
+                                    Console.WriteLine("It's a Tie!\nPress any key to return to menu.");
+                                    drawBoard(board);
+                                    resetBoard(board);
+                                    Console.ReadLine();
+                                    break;
+                                }
+                                else
+                                {
+                                    currPlayer = 'O';
+                                }
+
+                            }
+                            else
+                            {
+                                Console.WriteLine("It's Computer time to play");
+                                int x_pc;
+                                int y_pc;
+                                while (true)
+                                {
+                                    Random randomPlay = new Random();
+                                    x_pc = randomPlay.Next(3);
+                                    y_pc = randomPlay.Next(3);
+                                    if (string.IsNullOrEmpty(board[x_pc, y_pc]))
+                                    {
+                                        break;
+                                    }
+                                    else
+                                    {
+                                        continue;
+                                    }
+                                }
+
+                                board[x_pc, y_pc] = "O";
+
+                                bool[] checkGame = checkWinTie(board, currPlayer);
+
+                                if (checkGame[0])
+                                {
+                                    Console.WriteLine("Computer won!\nPress any key to return to menu.");
+                                    drawBoard(board);
+                                    resetBoard(board);
+                                    Console.ReadLine();
+                                    break;
+                                }
+                                else if (!checkGame[1])
+                                {
+                                    Console.WriteLine("It's a Tie!\nPress any key to return to menu.");
+                                    drawBoard(board);
+                                    resetBoard(board);
+                                    Console.ReadLine();
+                                    break;
+                                }
+                                else
+                                {
+                                    currPlayer = 'X';
+                                }
+
+                            }
+                            //Console.Clear();
+                        }
+                    }
+
+                }
+
+                mainPlay();
             }
         }
         #endregion
