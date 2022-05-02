@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Collections;
 
 namespace Code_I
 {
@@ -7,6 +9,7 @@ namespace Code_I
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            CodeIArrays();
         }
 
         #region Operations
@@ -263,6 +266,188 @@ namespace Code_I
         }
         #endregion
 
+        #region Methods
+        static void CodeIMethods()
+        {
+            // TODO: How to write docstring automaticaly?
+            Console.WriteLine(SquareRoot(81));
+            Console.WriteLine(NumberModule(-5));
+            // TODO: Check output result, should be: QuadraticEquationPos = -6 and  QuadraticEquationNeg = 2
+            Console.WriteLine(QuadraticEquationPos(2, 8, -24));
+            Console.WriteLine(QuadraticEquationNeg(2, 8, -24));
+            Console.WriteLine(Factorial(5));
+
+            ///<summary>
+            ///Receives one numeric input (double) and 
+            ///returns the mathematical square root value of the same.
+            /// </summary>
+            static double SquareRoot(double num)
+            {
+                return Math.Sqrt(num);
+            }
+
+            /// <summary>
+            /// Receives one numeric input (double) 
+            /// and returns the module value of the same.
+            /// </summary>
+            static double NumberModule(double num)
+            {
+                return Math.Abs(num);
+            }
+
+
+            /// <summary>
+            /// Receives three inputs and returns the positive
+            /// value option of the quadratic equation.
+            /// </summary>
+            /// <example>
+            /// x = [ -b +/- sqrt(b^2 - 4ac) ] / 2a
+            /// </example>
+            static double QuadraticEquationPos(double num1, double num2, double num3)
+            {
+                double sqrteq = (num2 
+                    + SquareRoot(
+                        NumberModule(
+                            Math.Pow(num2, 2)
+                            - 4 * num1 * num3
+                            )
+                        )
+                    )
+                    /
+                    (2 * num1);
+
+                return sqrteq;
+            }
+
+            /// <summary>
+            /// Receives three inputs and
+            /// returns the negative value option of the quadratic equation.
+            /// </summary>
+            /// <returns></returns>
+            static double QuadraticEquationNeg(double num1, double num2, double num3)
+            {
+                double sqrteq = (num2
+                    - SquareRoot(
+                        NumberModule(
+                            Math.Pow(num2, 2)
+                            - 4 * num1 * num3
+                            )
+                        )
+                    )
+                    /
+                    (2 * num1);
+                
+                return sqrteq;
+            }
+
+            /// <summary>
+            /// Receives one numeric input (integer) and 
+            /// returns the factorial value of the input
+            /// </summary>
+            /// <param name="num1"></param>
+            /// <returns></returns>
+            static double Factorial(int num1)
+            {
+                if (num1 <= 1)
+                {
+                    return num1 * 1;
+                }
+                return num1 * Factorial(num1 - 1);
+            }
+        }
+        #endregion
+
+        #region Arrays
+        static void CodeIArrays()
+        {
+            // TODO: Convert Array.system to array (How?):
+            int[] lowestToLargest = lowestLargest(5, 1, 8, 9, 10);
+            foreach(int number in lowestToLargest)
+            {
+                Console.WriteLine(number);
+            }
+            int[] largestToLowest = largestLowest(5, 1, 8, 9, 10);
+            foreach (int number in largestToLowest)
+            {
+                Console.WriteLine(number);
+            }
+
+            Console.WriteLine(avgarray(new int[] { 5, 1, 8, 9, 10}));
+            
+            
+            ArrayList numberAdded = giveMeMore();
+            foreach (int number in numberAdded)
+            {
+                Console.WriteLine(number);
+            }
+
+            /// <summary>
+            /// Receives five numbers and returns them ordered from lowest to largest.
+            /// </summary>
+            static int[] lowestLargest(int num1, int num2, int num3, int num4, int num5)
+            {
+                int[] inputArray = new[] { num1, num2, num3, num4, num5 };
+                Array.Sort(inputArray);
+                return inputArray;
+            }
+
+            /// <summary>
+            /// Receives five numbers and returns them ordered from lowest to largest
+            /// </summary>
+            static int[] largestLowest(int num1, int num2, int num3, int num4, int num5)
+            {
+                int[] lowestToLargest = lowestLargest(num1, num2, num3, num4, num5);
+                Array.Reverse(lowestToLargest);
+                return lowestToLargest;
+            }
+
+            /// <summary>
+            /// Receives five numbers and returns the average.
+            /// </summary>
+            static double avgarray(int[] array)
+            {
+                //Using linq:
+                //return array.Average();
+
+                double sumArray = 0;
+                foreach(int number in array)
+                {
+                    sumArray += number;
+                }
+                return sumArray / array.Length;
+
+            }
+
+            static ArrayList giveMeMore()
+            {
+                ArrayList list = new ArrayList();
+                while (true)
+                {
+                    int numberAdd = 0;
+                    string InputNumber = "";
+                    Console.WriteLine("Give me one more number please (Enter to end)");
+
+                    try
+                    {
+                        InputNumber = Console.ReadLine();
+                        numberAdd = Convert.ToInt32(InputNumber);
+                    }
+                    catch (System.FormatException)
+                    {
+                        if (string.IsNullOrEmpty(InputNumber)) {
+                            break;
+                        }
+                        Console.WriteLine("Wrong input..");
+                        continue;
+                    }
+
+                    Console.WriteLine($"You inserted {numberAdd}");
+                    list.Add(numberAdd);
+                }
+                return list;
+            }
+        }
+        #endregion
 
     }
 }

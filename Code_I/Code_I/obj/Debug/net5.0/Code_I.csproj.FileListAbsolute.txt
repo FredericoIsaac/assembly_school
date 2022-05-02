@@ -1,0 +1,16 @@
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_I\Code_I\obj\Debug\net5.0\Code_I.csproj.AssemblyReference.cache
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_I\Code_I\obj\Debug\net5.0\Code_I.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_I\Code_I\obj\Debug\net5.0\Code_I.AssemblyInfoInputs.cache
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_I\Code_I\obj\Debug\net5.0\Code_I.AssemblyInfo.cs
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_I\Code_I\obj\Debug\net5.0\Code_I.csproj.CoreCompileInputs.cache
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_I\Code_I\bin\Debug\net5.0\Code_I.exe
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_I\Code_I\bin\Debug\net5.0\Code_I.deps.json
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_I\Code_I\bin\Debug\net5.0\Code_I.runtimeconfig.json
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_I\Code_I\bin\Debug\net5.0\Code_I.runtimeconfig.dev.json
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_I\Code_I\bin\Debug\net5.0\Code_I.dll
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_I\Code_I\bin\Debug\net5.0\Code_I.pdb
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_I\Code_I\obj\Debug\net5.0\Code_I.dll
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_I\Code_I\obj\Debug\net5.0\refint\Code_I.dll
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_I\Code_I\obj\Debug\net5.0\Code_I.pdb
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_I\Code_I\obj\Debug\net5.0\Code_I.genruntimeconfig.cache
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_I\Code_I\obj\Debug\net5.0\ref\Code_I.dll
