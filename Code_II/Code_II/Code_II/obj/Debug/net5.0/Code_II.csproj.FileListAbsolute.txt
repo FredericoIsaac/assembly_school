@@ -1,0 +1,5 @@
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II\Code_II\Code_II\obj\Debug\net5.0\Code_II.csproj.AssemblyReference.cache
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II\Code_II\Code_II\obj\Debug\net5.0\Code_II.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II\Code_II\Code_II\obj\Debug\net5.0\Code_II.AssemblyInfoInputs.cache
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II\Code_II\Code_II\obj\Debug\net5.0\Code_II.AssemblyInfo.cs
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II\Code_II\Code_II\obj\Debug\net5.0\Code_II.csproj.CoreCompileInputs.cache

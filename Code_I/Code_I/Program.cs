@@ -8,7 +8,16 @@ namespace Code_I
     {
         static void Main(string[] args)
         {
-            CodeIArrays();
+            //CodeIArrays();
+            Factorial(5);
+        }
+        static double Factorial(int num1)
+        {
+            if (num1 <= 1)
+            {
+                return num1 * 1;
+            }
+            return num1 * Factorial(num1 - 1);
         }
 
         #region Operations
@@ -383,7 +392,6 @@ namespace Code_I
             //    Console.WriteLine(number);
             //}
 
-            #region Exercicios1_4
             /// <summary>
             /// Receives five numbers and returns them ordered from lowest to largest.
             /// </summary>
@@ -453,7 +461,6 @@ namespace Code_I
                 }
                 return list;
             }
-            #endregion
 
             static void ticTacToe()
             {

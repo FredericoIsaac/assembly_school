@@ -1,0 +1,16 @@
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\TicTacToe\TicTacToe\TicTacToe\bin\Debug\net5.0\TicTacToe.exe
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\TicTacToe\TicTacToe\TicTacToe\bin\Debug\net5.0\TicTacToe.deps.json
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\TicTacToe\TicTacToe\TicTacToe\bin\Debug\net5.0\TicTacToe.runtimeconfig.json
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\TicTacToe\TicTacToe\TicTacToe\bin\Debug\net5.0\TicTacToe.runtimeconfig.dev.json
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\TicTacToe\TicTacToe\TicTacToe\bin\Debug\net5.0\TicTacToe.dll
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\TicTacToe\TicTacToe\TicTacToe\bin\Debug\net5.0\TicTacToe.pdb
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\TicTacToe\TicTacToe\TicTacToe\obj\Debug\net5.0\TicTacToe.csproj.AssemblyReference.cache
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\TicTacToe\TicTacToe\TicTacToe\obj\Debug\net5.0\TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\TicTacToe\TicTacToe\TicTacToe\obj\Debug\net5.0\TicTacToe.AssemblyInfoInputs.cache
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\TicTacToe\TicTacToe\TicTacToe\obj\Debug\net5.0\TicTacToe.AssemblyInfo.cs
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\TicTacToe\TicTacToe\TicTacToe\obj\Debug\net5.0\TicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\TicTacToe\TicTacToe\TicTacToe\obj\Debug\net5.0\TicTacToe.dll
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\TicTacToe\TicTacToe\TicTacToe\obj\Debug\net5.0\refint\TicTacToe.dll
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\TicTacToe\TicTacToe\TicTacToe\obj\Debug\net5.0\TicTacToe.pdb
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\TicTacToe\TicTacToe\TicTacToe\obj\Debug\net5.0\TicTacToe.genruntimeconfig.cache
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\TicTacToe\TicTacToe\TicTacToe\obj\Debug\net5.0\ref\TicTacToe.dll
