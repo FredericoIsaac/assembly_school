@@ -14,7 +14,7 @@ namespace Code_II_app_II
                 Console.WriteLine("1 - Dog\n2 - Cat\n3 - Dunky\n4 - Cow\n5 - Duck");
                 string choosedAnimal = Console.ReadLine();
                 int animal;
-                if (int.TryParse(choosedAnimal, out animal))
+                if (int.TryParse(choosedAnimal, out animal) && animal > 0 && animal <= 5)
                 {
                     animals[animal - 1].Talk();
                     break;
