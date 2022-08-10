@@ -9,13 +9,19 @@ namespace Code_II
     internal class Car: IVehicle
     {
         public int startGas { get; set; }
-        public void Drive()
-        public bool Refuel(int startGas)
+        public bool Refuel(int gas)
+        {
+            startGas += gas;
+            return true;
+        }
 
 
         public void Drive()
         {
-
+            if (startGas > 0)
+            {
+                Console.WriteLine("The car is Driving");
+            }
         }
     }
 }

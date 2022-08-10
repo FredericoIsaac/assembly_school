@@ -3,3 +3,14 @@ C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Rep
 C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II\Code_II\Code_II\obj\Debug\net5.0\Code_II.AssemblyInfoInputs.cache
 C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II\Code_II\Code_II\obj\Debug\net5.0\Code_II.AssemblyInfo.cs
 C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II\Code_II\Code_II\obj\Debug\net5.0\Code_II.csproj.CoreCompileInputs.cache
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II\Code_II\Code_II\bin\Debug\net5.0\Code_II.exe
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II\Code_II\Code_II\bin\Debug\net5.0\Code_II.deps.json
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II\Code_II\Code_II\bin\Debug\net5.0\Code_II.runtimeconfig.json
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II\Code_II\Code_II\bin\Debug\net5.0\Code_II.runtimeconfig.dev.json
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II\Code_II\Code_II\bin\Debug\net5.0\Code_II.dll
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II\Code_II\Code_II\bin\Debug\net5.0\Code_II.pdb
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II\Code_II\Code_II\obj\Debug\net5.0\Code_II.dll
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II\Code_II\Code_II\obj\Debug\net5.0\refint\Code_II.dll
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II\Code_II\Code_II\obj\Debug\net5.0\Code_II.pdb
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II\Code_II\Code_II\obj\Debug\net5.0\Code_II.genruntimeconfig.cache
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II\Code_II\Code_II\obj\Debug\net5.0\ref\Code_II.dll
