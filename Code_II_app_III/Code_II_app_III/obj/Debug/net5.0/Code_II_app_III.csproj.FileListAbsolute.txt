@@ -1,0 +1,16 @@
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II_app_III\Code_II_app_III\bin\Debug\net5.0\Code_II_app_III.exe
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II_app_III\Code_II_app_III\bin\Debug\net5.0\Code_II_app_III.deps.json
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II_app_III\Code_II_app_III\bin\Debug\net5.0\Code_II_app_III.runtimeconfig.json
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II_app_III\Code_II_app_III\bin\Debug\net5.0\Code_II_app_III.runtimeconfig.dev.json
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II_app_III\Code_II_app_III\bin\Debug\net5.0\Code_II_app_III.dll
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II_app_III\Code_II_app_III\bin\Debug\net5.0\Code_II_app_III.pdb
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II_app_III\Code_II_app_III\obj\Debug\net5.0\Code_II_app_III.csproj.AssemblyReference.cache
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II_app_III\Code_II_app_III\obj\Debug\net5.0\Code_II_app_III.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II_app_III\Code_II_app_III\obj\Debug\net5.0\Code_II_app_III.AssemblyInfoInputs.cache
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II_app_III\Code_II_app_III\obj\Debug\net5.0\Code_II_app_III.AssemblyInfo.cs
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II_app_III\Code_II_app_III\obj\Debug\net5.0\Code_II_app_III.csproj.CoreCompileInputs.cache
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II_app_III\Code_II_app_III\obj\Debug\net5.0\Code_II_app_III.dll
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II_app_III\Code_II_app_III\obj\Debug\net5.0\refint\Code_II_app_III.dll
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II_app_III\Code_II_app_III\obj\Debug\net5.0\Code_II_app_III.pdb
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II_app_III\Code_II_app_III\obj\Debug\net5.0\Code_II_app_III.genruntimeconfig.cache
+C:\Users\Frederico\Desktop\Frederico_Gago\Educacao\Assembly\Junior Developer\Repo\Assembly\Code_II_app_III\Code_II_app_III\obj\Debug\net5.0\ref\Code_II_app_III.dll
